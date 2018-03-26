@@ -58,5 +58,6 @@ int getNumberOfImages(){
 }
 };
 
-
+//forward declaration of a method
+void readHeader(std::string baseName,VolImage &volImage);
 #endif
